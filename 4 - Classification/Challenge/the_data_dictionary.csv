@@ -1,0 +1,34 @@
+dtypes,name,description
+float64,loan_amnt,"The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value."
+object,term,The number of payments on the loan. Values are in months and can be either 36 or 60.
+float64,installment,The monthly payment owed by the borrower if the loan originates.
+object,grade,LC assigned loan grade
+object,emp_length,Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years. 
+object,home_ownership,"The home ownership status provided by the borrower during registration or obtained from the credit report. Our values are: RENT, OWN, MORTGAGE, OTHER"
+float64,annual_inc,The self-reported annual income provided by the borrower during registration.
+object,verification_status,"Indicates if income was verified by LC, not verified, or if the income source was verified"
+object,loan_status,Current status of the loan
+object,purpose,A category provided by the borrower for the loan request. 
+float64,dti,"A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income."
+float64,delinq_2yrs,The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years
+float64,open_acc,The number of open credit lines in the borrower's credit file.
+float64,revol_bal,Total credit revolving balance
+float64,total_acc,The total number of credit lines currently in the borrower's credit file
+float64,tot_coll_amt,Total collection amounts ever owed
+float64,tot_cur_bal,Total current balance of all accounts
+float64,total_rev_hi_lim,Total revolving high credit/credit limit
+float64,avg_cur_bal,Average current balance of all accounts
+float64,bc_util,Ratio of total current balance to high credit/credit limit for all bankcard accounts.
+float64,mort_acc,Number of mortgage accounts.
+float64,num_accts_ever_120_pd,Number of accounts ever 120 or more days past due
+float64,num_actv_bc_tl,Number of currently active bankcard accounts
+float64,num_actv_rev_tl,Number of currently active revolving trades
+float64,num_bc_sats,Number of satisfactory bankcard accounts
+float64,num_bc_tl,Number of bankcard accounts
+float64,num_rev_tl_bal_gt_0,Number of revolving trades with balance >0
+float64,num_tl_90g_dpd_24m,Number of accounts 90 or more days past due in last 24 months
+float64,num_tl_op_past_12m,Number of accounts opened in past 12 months
+float64,total_bal_ex_mort,Total credit balance excluding mortgage
+float64,total_bc_limit,Total bankcard high credit/credit limit
+float64,total_il_high_credit_limit,Total installment high credit/credit limit
+floa64,fico_average,The average of the fico high and low range scores

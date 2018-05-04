@@ -1,0 +1,10 @@
+Ethnicity,Height (CM),Weight (Kg),Will survive till 70
+White,186,90,Yes
+African,185,98,No
+Asian,175,80,No
+White,180,88,Yes
+Asian,178,,No
+Asian,172,72,Yes
+African,178,75,No
+White,,89,Yes
+African,186,90,Yes
